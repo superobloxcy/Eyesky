@@ -8,11 +8,15 @@ Aircraft through adsb
 
 Satellites and planets and moons, which are availible through JPL Horisons
 
+
 Requirements:
 
 ESP-32 DEV board
+
 An AZ/EL mount running on stepper motors
+
 Firefox browser
+
 
 How to use:
 
@@ -35,6 +39,8 @@ const float ALT_MIN = -50.0;
 const float MAX_SPEED = 1800.0;
 const float ACCELERATION = 240.0; 
 ```
+
+
 
 set up gpios like so
 
