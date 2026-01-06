@@ -17,7 +17,7 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 home_lat = None
 home_lon = None
 home_alt = None
-with open('config.txt', 'r') as f:
+with open('data/config.txt', 'r') as f:
     for line in f:
         line = line.strip()
         if line.startswith('home_lat='):
