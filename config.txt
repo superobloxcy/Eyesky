@@ -1,0 +1,5 @@
+ssid=YOUR_SSID_HERE
+password=WIFI_PASSWORD
+home_lat=your telescopes latitude here in decimal degrees
+home_lon=same as above but for londitude
+home_alt=67
