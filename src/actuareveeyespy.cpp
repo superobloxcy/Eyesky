@@ -20,9 +20,9 @@ const int serverPort = 10000;
 #define LED_PIN         5   // Built-in ESP32 LED (usually GPIO 2)
 
 // Inputs
-#define BTN_HOME_AZ     14
-#define BTN_HOME_ALT    13
-#define FORCE_STOP_PIN  25
+#define BTN_HOME_AZ     14 // Pin for Azimuth Homing Button has external pull-down
+#define BTN_HOME_ALT    13 // Pin for Altitude Homing Button has external pull-down
+#define FORCE_STOP_PIN  25 // Pin for Emergency Stop Button has external pull-down
 
 // Mechanical Specs
 const float AZ_RATIO  = 5.75;
