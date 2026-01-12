@@ -9,3 +9,6 @@ __pycache__/coordinates.cpython-314.pyc
 __pycache__/data_parser.cpython-314.pyc
 __pycache__/gui.cpython-314.pyc
 __pycache__/serial_handler.cpython-314.pyc
+__pycache__/ephemeris_tracker.cpython-314.pyc
+tracking_logs
+de421.bsp
