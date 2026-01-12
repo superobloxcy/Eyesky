@@ -8,7 +8,7 @@ from matplotlib.figure import Figure
 from collections import deque
 import threading
 
-from data_parser import haversine_distance
+from .data_parser import haversine_distance
 
 
 # Constants
