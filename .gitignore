@@ -4,3 +4,8 @@
 .vscode/launch.json
 .vscode/ipch
 config.txt
+__pycache__/config.cpython-314.pyc
+__pycache__/coordinates.cpython-314.pyc
+__pycache__/data_parser.cpython-314.pyc
+__pycache__/gui.cpython-314.pyc
+__pycache__/serial_handler.cpython-314.pyc
