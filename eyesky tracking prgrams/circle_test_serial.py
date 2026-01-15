@@ -1,7 +1,7 @@
 import numpy as np
 import serial
 import time
-import sys
+
 # Serial port configuration
 SERIAL_PORT = "COM5"  # Change this to your ESP32's COM port
 BAUD_RATE = 115200
