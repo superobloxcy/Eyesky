@@ -6,6 +6,7 @@ import pytz
 import os
 import glob
 import sys
+import argparse
 from datetime import datetime, timezone, timedelta
 
 BAUD_RATE_DEFAULT = 115200
@@ -130,8 +131,12 @@ def parse_ephemeris_tuples(data_string):
 
 
 def main():
+    parser = argparse.ArgumentParser(description='Linux-friendly Horizons ephemeris parser and serial tracker')
+    parser.add_argument('--n', type=int, required=True, help='Horizons file number (e.g., --n 14 for horizons_results (14).txt)')
+    args = parser.parse_args()
+
     # Load ephemeris data
-    data_file = 'C:/Users/Owner/Downloads/horizons_results (14).txt'
+    data_file = f'C:/Users/Owner/Downloads/horizons_results ({args.n}).txt'
     try:
         with open(data_file, 'r') as file:
             data = file.read()
